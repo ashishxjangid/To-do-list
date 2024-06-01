@@ -1,0 +1,47 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li span {
+  cursor: pointer;
+}
